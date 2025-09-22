@@ -1,0 +1,24 @@
+h1 {
+  color: blue;
+}
+
+label::after {
+  content: " :";
+}
+
+.main__section_form {
+  display: flex;
+  flex-direction: column;
+
+  > * {
+    margin-top: 1em;
+  }
+
+  label[for="form-field-pseudo"] {
+    color: greenyellow
+  }
+
+  label[for="form-field-presentation"] {
+    color: red;
+  }
+}
